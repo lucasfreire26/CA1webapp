@@ -31,7 +31,7 @@ function calculateBill(idflorenceDiscography) {
 
 										// This function either turns on or off the row highlighting for vegetarian
 										// items (depending on the value of bShowVeg)
-function highlightLive(idTable, bShowLive) {
+function highlightLive() {
 										// if bShowVeg is true, then we're highlighting vegetarian
 										//	meals, otherwise we're unhighlighting them.
 	var i=0;
@@ -63,3 +63,22 @@ function getParentTag(oNode, sParentType) {
 	};
 	return oParent;
 };
+
+function validateForm() {
+  var title = document.forms["myForm"]["title"].value
+    var yearOfRelease= document.forms["myForm"]["year"].value
+    var price = document.forms["myForm"]["price"].value
+
+  if (title == "") {
+    alert("Title must be filled out");
+    return false;
+
+   }else if (yearOfRelease == "") {
+    alert("Year of Release must be filled out");
+    return false;
+
+  }else if (price == "") {
+    alert("Price must be filled out");
+    return false;
+  }
+}

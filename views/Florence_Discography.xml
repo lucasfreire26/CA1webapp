@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<florenceDiscography>
+  <cd>
+    <title>Lungs</title>
+    <img>"https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/04/florenceandthemachine-GettyImages-1131501303-920x584.jpg"</img>
+    <yearOfRelease>2009</yearOfRelease>
+    <price>7.99</price>
+  </cd>
+  <cd>
+    <title>Ceremonials</title>
+    <img>"https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/04/florenceandthemachine-GettyImages-1131501303-920x584.jpg"</img>
+    <yearOfRelease>2011</yearOfRelease>
+    <price>8.99</price>
+  </cd>
+  <cd>
+    <title>How Big, How Blue, How Beautiful</title>
+    <img>"https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/04/florenceandthemachine-GettyImages-1131501303-920x584.jpg"</img>
+    <yearOfRelease>2015</yearOfRelease>
+    <price>10.55</price>
+  </cd>
+  <cd>
+    <title>High as Hope</title>
+    <img>"https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/04/florenceandthemachine-GettyImages-1131501303-920x584.jpg"</img>
+    <yearOfRelease>2015</yearOfRelease>
+    <price>9.55</price>
+  </cd>
+  <cd live="true">
+    <title>Live at the Wiltern</title>
+    <img>"https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/04/florenceandthemachine-GettyImages-1131501303-920x584.jpg"/</img>
+    <yearOfRelease>2011</yearOfRelease>
+    <price>10.55</price>
+  </cd>
+  <cd live="true">
+    <title>MTV Unplugged</title>
+    <img>"https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/04/florenceandthemachine-GettyImages-1131501303-920x584.jpg"</img>
+    <yearOfRelease>2012</yearOfRelease>
+    <price>10.55</price>
+  </cd>
+</florenceDiscography>
