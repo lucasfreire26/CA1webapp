@@ -36,4 +36,16 @@
     <yearOfRelease>2012</yearOfRelease>
     <price>10.55</price>
   </cd>
+  <cd>
+    <title>ss</title>
+    <img>img</img>
+    <yearOfRelease>2010</yearOfRelease>
+    <price>2</price>
+  </cd>
+  <cd>
+    <title>fvvb</title>
+    <img>img</img>
+    <yearOfRelease>3445</yearOfRelease>
+    <price>33,2</price>
+  </cd>
 </florenceDiscography>

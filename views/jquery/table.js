@@ -13,7 +13,7 @@ function draw_table(){
     };
     $.getJSONuncached("/get/html")
 };
-
+//function to select the row
 function select_row()
 {
 	$("#menuTable tbody tr[id]").click(function ()
@@ -26,6 +26,7 @@ function select_row()
 	})
 };
 
+//function to delete raws in the table
 function delete_row(sec, ent)
 {
 	$("#delete").click(function ()
@@ -45,10 +46,12 @@ function delete_row(sec, ent)
 	})
 };
 
+//function to draw the table
 $(document).ready(function(){
     draw_table();
 })
 
+// code source at: https://www.w3schools.com/js/js_validation.asp
 function validateForm() {
   var title = document.forms["myForm"]["title"].value;
   var year = document.forms["myForm"]["year"].value;
@@ -63,9 +66,10 @@ else if (year == "") {
     alert("Year must be filled out");
     return false;
 }
+/*I had to comment this part because the validation for the price just stopped working, and I couldnt find the reason*/
 
-else if (price == ""); {
+/*else if (price == ""); {
     alert("Price must be filled out");
     return false;
-  }
+  }*/
 }

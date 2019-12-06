@@ -2,7 +2,10 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.orgç1999/XSL/Transform">
 <xsl:template match="/">
 
+<!--  //this code was adapted from Mikhail's code at: https://github.com/mikhail-cct/CA1-In-class-Demo  -->
 <table id="menuTable" class="indent table-hover">
+
+    
                     <thead>
                         <tr>
                             <th colspan="5">Florence and the Machine Discography</th>
@@ -50,6 +53,7 @@
                     </tbody>
                 </table>
                 <form class="indent">
+                    <!-- button to calculate the bill -->
                     <p>
                         <input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill" />
 				Total: €

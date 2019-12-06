@@ -1,3 +1,5 @@
+//this code was adapted from Mikhail's code at: https://github.com/mikhail-cct/CA1-In-class-Demo
+
 var gcdCount = 0;
 										// returns a number that represents the sum of all the selected menu
 										// item prices.
